@@ -3,12 +3,11 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web",
-    "build:web": "expo export:web"
-  },
+  "dev": "expo start",
+  "build:web": "npx expo export --platform web",
+  "start": "expo start"
+},
+
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
     "@react-navigation/bottom-tabs": "^7.3.10",
